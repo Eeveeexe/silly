@@ -3,10 +3,10 @@ ini_set('display_errors', 1);
 ini_set ('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$sn = "sql301.infinityfree.com"; 
-$un = "if0_35157218"; 
-$pw = "OGUK3cRdYm"; 
-$db="if0_35157218_gibjtut";
+$sn = "127.0.0.1"; 
+$un = "root"; 
+$pw = "Super.Cool55"; 
+//$db="if0_35157218_gibjtut";
 
 $conn = new mysqli($sn, $un, $pw, $db);
 
