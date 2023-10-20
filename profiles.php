@@ -1,8 +1,8 @@
 <?php
-$sn = "sql301.infinityfree.com"; 
-$un = "if0_35157218"; 
-$pw = "OGUK3cRdYm"; 
-$db="if0_35157218_gibjtut";
+$sn = "127.0.0.1"; 
+$un = "root"; 
+$pw = "Super.Cool55"; 
+//$db="if0_35157218_gibjtut";
 
 // Create connection
 $conn = new mysqli($sn, $un, $pw, $db);
